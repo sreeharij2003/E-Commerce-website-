@@ -1,0 +1,135 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font-family: 'Ubuntu', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!--font-family: 'Courgette';-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <!--font-family: 'Itim', cursive; current font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>
+        AVIDOR
+    </title>
+    <link rel="icon" type="image/png" href="icon.png">
+</head>
+<body>
+    <div class="header" >
+        <div class="logo"><img src="logo.jpg" width="250px" height="90px"></div>
+
+        <div class="navbar">
+            <ul class="list">
+                <li><a href="dress shoes/shoes1.html" target="_blank">Shoes</a></a></li>
+                <li><a href="boots&loafers/boots(proj).html" target="_blank">Boots</a></a></li>
+                <li><a href="sneakers/sneakers.html" target="_blank">Sneakers</a></a></li>
+                <li><a href="boots&loafers/loafer(proj).html" target="_blank">Loafers</a></a></li>
+            </ul>
+            
+            <div class="buttons">           
+                <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg></button>
+                <button onclick="window.location.href='accountlogin.html';"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                 </svg></button>
+                 <button onclick="window.location.href='favourites.html';"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                </svg></button>
+                <button onclick="window.location.href='cart.html';"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                </svg></button>
+                <a href="" class="menu" onclick="toggleMenu()">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        
+        <div id="video">
+            <video  autoplay muted loop src="Video.mp4"> </video>
+            <button onclick="window.location.href='explore/explore.html';">EXPLORE COLLECTION</button>
+        </div>
+        <div class="thumbnails" >
+            <div class="shoes">
+                <a href="dress shoes/shoes1.html" target="_blank">
+                    <img  src="thumbnail/shoes.png" alt="">
+                    <p>DRESS SHOES</p>
+                </a>
+            </div>
+            <div class="shoes" style="background-color: rgb(218, 221, 226);"><a href="sneakers/sneakers.html " target="_blank">
+                <img src="thumbnail/sneakers.png" alt="">
+                <p>SNEAKERS</p>
+            </a></div>
+            <div class="shoes" style="background-color: rgb(244, 244, 244);"><a  href="boots&loafers/boots(proj).html" target="_blank">
+                <img src="thumbnail/boot.png" alt="">
+                <p>BOOTS</p>
+            </a></div>
+            <div class="shoes"><a href="boots&loafers/loafer(proj).html" target="_blank">
+                <img src="thumbnail/loafer.png" alt="">
+                <p>LOAFERS</p>
+            </a></div>
+        </div>
+        <div >
+            <p class="accessories-heading">ACCESSORIES</p>
+            <br><br>
+            <div class="accessories-thumbnails"> 
+                <div class="accessories" style="background-color: rgb(255,248,230);"><a href=""><img src="thumbnail/polish.png" alt=""><p>SHOE POLISH</p></a></div>
+                <div class="accessories" ><a href=""><img src="thumbnail/shoe tree.png" alt=""><p> SHOE TREE</p></a></div>
+                <div class="accessories"><a href=""><img src="thumbnail/brush.png" alt=""><p>BRUSH</p></a></div>
+                <div class="accessories" style="background-color: rgb(232, 233, 242);"><a href=""><img src="thumbnail/socks.png" alt=""><p>SOCKS</p></a></div>
+
+            </div>
+        </div>
+ 
+        
+    <div class="footer">
+
+        <div class="footer-list">
+            <div>
+                <div class="list-heading"><p>LEGAL</p></div>
+                <a href=""><p>Legal Notes</p></a>
+                <a href=""><p>Terms and conditions</p></a>
+                <a href=""><p>Privacy Policy</p></a>
+                <a href=""><p>Cookie Policy</p></a>
+                <a href=""><p>Manage Cookies</p></a>
+            </div>
+            <div>
+                <div class="list-heading"><p>CUSTOMER SERVICES</p></div>
+                <a href=""><p>Contact us</p></a>
+                <a href=""><p>FAQ</p></a>
+                <a href=""><p>HELP</p></a>
+                <a href=""><p>Orders and returns</p></a>
+                <a href=""><p>Refund Policy</p></a>
+            </div>
+            <div  style="background-color: black;color: white;" class="socials">
+                
+                <a href="https://www.instagram.com/avidor.official/"  style="background-color: black;color: white;"><svg xmlns="http://www.w3.org/2000/svg" width="26px" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"/></svg>
+                     INSTAGRAM</a>
+                
+                <a href="https://mail.google.com/" style="background-color: black;color: white;">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM218 271.7L64.2 172.4C66 156.4 79.5 144 96 144H352c16.5 0 30 12.4 31.8 28.4L230 271.7c-1.8 1.2-3.9 1.8-6 1.8s-4.2-.6-6-1.8zm29.4 26.9L384 210.4V336c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V210.4l136.6 88.2c7 4.5 15.1 6.9 23.4 6.9s16.4-2.4 23.4-6.9z"/></svg>
+                     MAIL
+                </a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="background-color: black;color: white;"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M186.8 202.1l95.2 54.1-95.2 54.1V202.1zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-42 176.3s0-59.6-7.6-88.2c-4.2-15.8-16.5-28.2-32.2-32.4C337.9 128 224 128 224 128s-113.9 0-142.2 7.7c-15.7 4.2-28 16.6-32.2 32.4-7.6 28.5-7.6 88.2-7.6 88.2s0 59.6 7.6 88.2c4.2 15.8 16.5 27.7 32.2 31.9C110.1 384 224 384 224 384s113.9 0 142.2-7.7c15.7-4.2 28-16.1 32.2-31.9 7.6-28.5 7.6-88.1 7.6-88.1z"/></svg>
+                 YOUTUBE</a>
+              
+                <a onclick="alert('Number Copied');" href="" style="background-color: black;color: white; border: none;"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm90.7 96.7c9.7-2.6 19.9 2.3 23.7 11.6l20 48c3.4 8.2 1 17.6-5.8 23.2L168 231.7c16.6 35.2 45.1 63.7 80.3 80.3l20.2-24.7c5.6-6.8 15-9.2 23.2-5.8l48 20c9.3 3.9 14.2 14 11.6 23.7l-12 44C336.9 378 329 384 320 384C196.3 384 96 283.7 96 160c0-9 6-16.9 14.7-19.3l44-12z"/></svg>
+                     +39 04 8001 6000</a>
+            </div>
+        </div>
+        <div class="trademark"><p>© 2018 - 2024 Avidor S.p.A. - All rights reserved. SIAE LICENCE # 2294/I/1936 and 5647/I/1936</p></div>
+        <div class="name">
+            <p>A</p><p>V</p><p>I</p><p>D</p><p>O</p><p>R</p>
+
+        </div>
+    </div>
+
+</body>
